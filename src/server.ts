@@ -22,6 +22,8 @@ export class Server {
   async start() {
     this.app.use(this.routes);
 
+    this.app.use(express.static(this.clientPath));
+
     this.app.listen(this.port, () => {
       console.log(`Server listening on port ${this.port}`);
     });

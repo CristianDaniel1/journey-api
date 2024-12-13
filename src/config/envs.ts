@@ -2,7 +2,7 @@ import { z } from 'zod';
 
 const envSchema = z.object({
   PORT: z.number({ coerce: true }).default(3000),
-  CLIENT_PATH: z.string().default('frontend'),
+  CLIENT_PATH: z.string().default('src/frontend'),
 });
 
 process.loadEnvFile();
