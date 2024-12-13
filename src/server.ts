@@ -1,5 +1,6 @@
-import express, { Router } from 'express';
+import express, { Request, Response, Router } from 'express';
 import path from 'path';
+import { readJSON } from './utils/readJson';
 
 interface ServerOptions {
   port: number;
@@ -21,6 +22,9 @@ export class Server {
   }
 
   async start() {
+    this.app.use(express.json());
+    this.app.use(express.urlencoded({ extended: true }));
+
     this.app.disable('x-powered-by');
     this.app.use(this.routes);
 

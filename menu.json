@@ -1,0 +1,200 @@
+[
+  {
+    "id": "biryani-rice",
+    "name": "Biryani Rice",
+    "price": 35.99,
+    "alt": "Biryani é um prato de arroz típico da Índia, com batatas, cebola, alho e gengibre esmagados, com carne de frango.",
+    "image": "https://i.imgur.com/ux0OPup.jpg",
+    "category": "dish",
+    "rating": 4.8
+  },
+  {
+    "id": "steak-frites",
+    "name": "Steak Frites",
+    "price": 32.99,
+    "alt": "Suculento bife servido com batatas fritas crocantes e douradas e manteiga de ervas.",
+    "image": "https://i.imgur.com/k1Kcm3l.jpg",
+    "category": "dish",
+    "rating": 4.7
+  },
+  {
+    "id": "margherita-pizza",
+    "name": "Margherita Pizza",
+    "price": 34.99,
+    "alt": "Uma pizza com mussarela fresca, tomate e manjericão em uma crosta fina e crocante.",
+    "image": "https://i.imgur.com/IbGvymx.jpg",
+    "category": "dish",
+    "rating": 4.9
+  },
+  {
+    "id": "chicken-curry",
+    "name": "Chicken Curry",
+    "price": 32.99,
+    "alt": "Deliciosos pedaços de frango cozidos em um rico e aromático molho de curry, servidos com arroz basmati.",
+    "image": "https://i.imgur.com/1ZtOQ4B.jpg",
+    "category": "dish",
+    "rating": 4.6
+  },
+  {
+    "id": "miso-ramen",
+    "name": "Miso Ramen",
+    "price": 29.99,
+    "alt": "Uma tigela quente de ramen com caldo de missô, carne de porco tenra, ovo cozido e cebolinha.",
+    "image": "https://i.imgur.com/DXkrCaM.jpg",
+    "category": "dish",
+    "rating": 4.5
+  },
+  {
+    "id": "beef-tacos",
+    "name": "Beef Tacos",
+    "price": 26.99,
+    "alt": "Três tortilhas macias recheadas com carne temperada, molho fresco, queijo e creme de leite.",
+    "image": "https://i.imgur.com/fYQtes1.jpg",
+    "category": "dish",
+    "rating": 4.7
+  },
+  {
+    "id": "caesar-salad",
+    "name": "Caesar Salad",
+    "price": 17.99,
+    "alt": "Alface romana temperada com molho César, coberta com croutons e lascas de parmesão.",
+    "image": "https://i.imgur.com/ZM0Mqak.jpg",
+    "category": "dish",
+    "rating": 4.4
+  },
+  {
+    "id": "spaghetti-carbonara",
+    "name": "Spaghetti Carbonara",
+    "price": 20.99,
+    "alt": "Espaguete Al dente com molho cremoso feito de gema de ovo, queijo pecorino, pancetta e pimenta.",
+    "image": "https://i.imgur.com/RM7Klzf.jpg",
+    "category": "dish",
+    "rating": 4.8
+  },
+  {
+    "id": "sushi-roll-platter",
+    "name": "Sushi Roll Platter",
+    "price": 24.99,
+    "alt": "Uma variedade de rolos de sushi frescos, incluindo Califórnia, Atum Picante e Abacate de Enguia.",
+    "image": "https://i.imgur.com/gwTTfN5.jpg",
+    "category": "dish",
+    "rating": 4.9
+  },
+  {
+    "id": "vegan-buddha-bowl",
+    "name": "Vegan Buddha Bowl",
+    "price": 27.99,
+    "alt": "Uma tigela farta cheia de quinoa, vegetais assados, abacate e molho de tahine.",
+    "image": "https://i.imgur.com/Wqb3B04.jpg",
+    "category": "dish",
+    "rating": 4.6
+  },
+  {
+    "id": "seafood-paella",
+    "name": "Seafood Paella",
+    "price": 39.99,
+    "alt": "Uma iguaria Espanhola recheada com arroz com infusão de açafrão, camarão, mexilhões e chouriço.",
+    "image": "https://i.imgur.com/jYABxQK.jpg",
+    "category": "dish",
+    "rating": 5.0
+  },
+  {
+    "id": "lobster-bisque",
+    "name": "Lobster Bisque",
+    "price": 30.99,
+    "alt": "Uma sopa cremosa feita com caldo de lagosta, vegetais aromáticos e um toque de conhaque.",
+    "image": "https://i.imgur.com/teHMqZS.jpg",
+    "category": "dish",
+    "rating": 4.5
+  },
+  {
+    "id": "mushroom-risotto",
+    "name": "Mushroom Risotto",
+    "price": 33.99,
+    "alt": "Arroz Arborio cremoso cozido com uma mistura de cogumelos selvagens e finalizado com parmesão.",
+    "image": "https://i.imgur.com/xFsaMMl.jpg",
+    "category": "dish",
+    "rating": 4.7
+  },
+  {
+    "id": "lemon-cheesecake",
+    "name": "Lemon Cheesecake",
+    "price": 13.99,
+    "alt": "Um cheesecake cremoso com sabor picante de limão, servido sobre uma base de biscoito quebradiço.",
+    "image": "https://i.imgur.com/iL59Ny9.jpg",
+    "category": "dessert",
+    "rating": 4.8
+  },
+  {
+    "id": "chocolate-brownie",
+    "name": "Chocolate Brownie",
+    "price": 15.99,
+    "alt": "Um brownie rico e cremoso, coberto com uma bola de sorvete de baunilha e calda de chocolate.",
+    "image": "https://i.imgur.com/VoNUkb3.jpg",
+    "category": "dessert",
+    "rating": 4.9
+  },
+  {
+    "id": "burnt-basque",
+    "name": "Burnt Basque",
+    "price": 15.99,
+    "alt": "Burnt Basque cheesecake",
+    "image": "https://i.imgur.com/J3JFWa8.jpg",
+    "category": "dessert",
+    "rating": 4.6
+  },
+  {
+    "id": "pancake-stack",
+    "name": "Pancake Stack",
+    "price": 30.99,
+    "alt": "Panquecas fofas empilhadas, regadas com xarope de bordo e cobertas com frutas frescas e mel.",
+    "image": "https://i.imgur.com/GtW6qTB.jpg",
+    "category": "dessert",
+    "rating": 4.7
+  },
+  {
+    "id": "pudim",
+    "name": "Pudim",
+    "price": 25.99,
+    "alt": "Pudim delicioso",
+    "image": "https://i.imgur.com/sMyQkr4.jpg",
+    "category": "dessert",
+    "rating": 4.5
+  },
+  {
+    "id": "suco-laranja",
+    "name": "Suco de Laranja",
+    "price": 7.99,
+    "alt": "Suco de laranja",
+    "image": "https://i.imgur.com/a6U22y7.jpg",
+    "category": "drink",
+    "rating": 4.3
+  },
+  {
+    "id": "suco-morango",
+    "name": "Suco de Morango",
+    "price": 7.99,
+    "alt": "Suco de Morango",
+    "image": "https://i.imgur.com/IeOyVS2.jpg",
+    "category": "drink",
+    "rating": 4.4
+  },
+  {
+    "id": "limonada",
+    "name": "Limonada",
+    "price": 8.99,
+    "alt": "Limonada",
+    "image": "https://i.imgur.com/WsJJju7.jpg",
+    "category": "drink",
+    "rating": 4.6
+  },
+  {
+    "id": "refri-cola",
+    "name": "Refrigerante Cola",
+    "price": 10.99,
+    "alt": "Refrigerante sabor Cola",
+    "image": "refriCola",
+    "category": "drink",
+    "rating": 4.2
+  }
+]
