@@ -1,4 +1,5 @@
 import express, { Router } from 'express';
+import path from 'path';
 
 interface ServerOptions {
   port: number;
@@ -20,9 +21,10 @@ export class Server {
   }
 
   async start() {
+    this.app.disable('x-powered-by');
     this.app.use(this.routes);
 
-    this.app.use(express.static(this.clientPath));
+    this.app.use(express.static(path.join(__dirname, this.clientPath)));
 
     this.app.listen(this.port, () => {
       console.log(`Server listening on port ${this.port}`);
