@@ -1,6 +1,6 @@
-import express, { Request, Response, Router } from 'express';
+import express, { Router } from 'express';
 import path from 'path';
-import { readJSON } from './utils/readJson';
+import { corsMiddleware } from './middlewares/cors';
 
 interface ServerOptions {
   port: number;
@@ -24,6 +24,8 @@ export class Server {
   async start() {
     this.app.use(express.json());
     this.app.use(express.urlencoded({ extended: true }));
+
+    this.app.use(corsMiddleware());
 
     this.app.disable('x-powered-by');
     this.app.use(this.routes);
