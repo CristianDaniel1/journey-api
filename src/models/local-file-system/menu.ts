@@ -1,6 +1,6 @@
 import { randomUUID } from 'node:crypto';
-import { Menu } from '../types';
-import { readJSON } from '../utils/readJson';
+import { Menu } from '../../types';
+import { readJSON } from '../../utils/readJson';
 
 const menu = readJSON('./menu.json');
 
